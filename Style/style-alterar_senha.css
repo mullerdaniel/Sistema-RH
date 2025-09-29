@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.imagem-login-esquerda {
+    width: 55%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.parte-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.titulo-rh,
+.titulo-solutions {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.titulo-rh {
+    font-size: 3.5rem;
+    color: #005691;
+    font-weight: 700;
+}
+
+.titulo-solutions {
+    font-size: 3.5rem;
+    color: #005791;
+    font-weight: 200;
+}
+
+.titulos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.borda-azul {
+    border: 1px solid #023a6738;
+    padding: 20px 50px;
+    width: 100%;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.subtitulo-entrar {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 25px;
+    color: #005691;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.caixa-login input {
+    width: 100%;
+    padding: 18px 40px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #023a6775;
+    border-radius: 999px;
+    margin-top: 25px;
+}
+
+.requisitos h3{
+    font-family: Arial, sans-serif;
+    color: #142441b2;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 2px;
+}
+
+.botao-atualizar-senha {
+    font-family: Arial, sans-serif;
+    background-color: #005691;
+    padding: 12px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.botao-atualizar-senha a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.botao-atualizar-senha a {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
