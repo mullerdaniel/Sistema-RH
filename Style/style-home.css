@@ -120,16 +120,17 @@ body {
     align-items: center;
     gap: 60px;
     padding: 60px 80px;
-    background-color: #f5f5f5;
 }
 
 .imagem-principal-container {
     position: relative;
-    width: 570px;
-    height: 360px;
+    width: 950px;
+    height: 570px;
     border-radius: 8px;
     overflow: hidden;
     flex-shrink: 0;
+    margin-top: 20px;
+    margin-left: -220px;
 }
 
 .imagem-principal {
@@ -164,9 +165,10 @@ body {
 
 .subtitulo-imagem {
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 5px;
-    font-weight: 300;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.829);
 }
 
 .cards-container {
@@ -188,8 +190,8 @@ body {
 
 .card-titulo {
     font-family: Arial, sans-serif;
-    color: #005691;
-    font-size: 14px;
+    color: #005791e5;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
     letter-spacing: 0.5px;
@@ -197,9 +199,8 @@ body {
 
 .card-descricao {
     font-family: Arial, sans-serif;
-    color: #005691;
-    font-size: 13px;
-    line-height: 1.5;
+    color: #005791da;
+    font-size: 15px;
     margin-bottom: 8px;
     max-width: 350px;
 }
@@ -210,7 +211,7 @@ body {
     font-weight: 300;
     border: none;
     border-radius: 6px;
-    padding: 8px 28px;
+    padding: 8px 32px;
     font-size: 12px;
     cursor: pointer;
     align-self: flex-start;
@@ -222,14 +223,16 @@ body {
 }
 
 .rodape {
-    background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
-    border-top: 1px solid #ddd;
 }
 
 .rodape-texto {
     font-family: Arial, sans-serif;
     color: #005fa3;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.cards-container a {
+    text-decoration: none;
 }
