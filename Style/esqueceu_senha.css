@@ -30,6 +30,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 10px 0;
+    margin-top: -150px;
 }
 
 .titulo-rh {
@@ -56,9 +57,9 @@ body {
     padding: 20px 50px;
     width: 100%;
     width: 600px;
-    height: 500px;
+    height: 400px;
     border-radius: 20px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .subtitulo-entrar {
@@ -71,7 +72,17 @@ body {
     margin-top: 40px;
 }
 
-.caixa-login input {
+.minititulo {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    color: #448DCA;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.caixa-email input {
     width: 100%;
     padding: 18px 40px;
     margin: 10px 0;
@@ -96,19 +107,19 @@ body {
     text-decoration: none;
 }
 
-.botao-entrar {
+.botao-enviar {
     font-family: Arial, sans-serif;
     background-color: #005691;
     padding: 12px 20px;
     border-radius: 999px;
     cursor: pointer;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     color: #fff;
 }
 
-.botao-entrar button {
+.botao-enviar button {
     background: none;
     border: none;
     color: #fff;
@@ -131,7 +142,7 @@ body {
 }
 
 /* Ajuste no botão */
-.botao-entrar button {
+.botao-enviar button {
     width: 100%;
     background: none;
     border: none;
@@ -142,6 +153,11 @@ body {
     text-decoration: none;
 }
 
-.botao-entrar button:hover {
+.botao-enviar button:hover {
     opacity: 0.9;
+}
+
+.botao-enviar a {
+    text-decoration: none;
+    color: white;
 }

@@ -240,40 +240,6 @@ a {
     font-size: 14px;
 }
 
-.password-requirements {
-    margin-top: 6px;
-    font-size: 11px;
-    color: #666;
-    line-height: 1.4;
-}
-
-.btn-submit {
-    grid-column: 1 / -1;
-    margin-top: 20px;
-    padding: 16px;
-    background-color: #005691;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 4px 12px rgba(0, 86, 145, 0.3);
-}
-
-.btn-submit:hover {
-    background-color: #004577;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(0, 86, 145, 0.4);
-}
-
-.btn-submit:active {
-    transform: translateY(0);
-}
-
 
 /* LISTA DE USUARIO */
 .lista-usuarios-lateral {

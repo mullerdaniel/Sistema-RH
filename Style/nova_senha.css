@@ -56,7 +56,7 @@ body {
     padding: 20px 50px;
     width: 100%;
     width: 600px;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
     margin-top: 80px;
 }
@@ -81,67 +81,33 @@ body {
     margin-top: 25px;
 }
 
-.esqueceu-senha {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.esqueceu-senha a {
+.requisitos h3{
     font-family: Arial, sans-serif;
-    color: #005691;
-    cursor: pointer;
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin-top: 30px;
-    text-decoration: none;
+    color: #142441b2;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 2px;
 }
 
-.botao-entrar {
+.botao-atualizar-senha {
     font-family: Arial, sans-serif;
     background-color: #005691;
     padding: 12px 20px;
     border-radius: 999px;
     cursor: pointer;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
+}
+
+.botao-atualizar-senha a {
+    text-decoration: none;
     color: #fff;
 }
 
-.botao-entrar button {
-    background: none;
-    border: none;
-    color: #fff;
+.botao-atualizar-senha a {
+    display: block;
+    margin: 0;
     font-size: 1rem;
     font-weight: 400;
-    cursor: pointer;
-}
-
-
-/* Estilo para mensagem de erro */
-.erro-mensagem {
-    color: #ff4444;
-    background-color: #ffe6e6;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    margin: 10px 0;
-    font-size: 14px;
-    border: 1px solid #ff4444;
-}
-
-/* Ajuste no botão */
-.botao-entrar button {
-    width: 100%;
-    background: none;
-    border: none;
-    color: inherit;
-    font: inherit;
-    cursor: pointer;
-    padding: 0;
-    text-decoration: none;
-}
-
-.botao-entrar button:hover {
-    opacity: 0.9;
 }

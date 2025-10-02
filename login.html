@@ -21,22 +21,33 @@
                 <h2 class="subtitulo-entrar" href="">ENTRAR</h2>
             </div>
 
-            <div class="caixa-login">
-                <input type="text" placeholder="Usuário ou email">
-            </div>
+            <form id="loginForm">
+                <div class="caixa-login">
+                    <input type="text" id="usuario" placeholder="Usuário ou email" autocomplete="off" required>
+                </div>
 
-            <div class="caixa-login">
-                <input type="text" placeholder="Senha">
-            </div>
+                <div class="caixa-login">
+                    <input type="password" id="senha" placeholder="Senha" autocomplete="off" required>
+                </div>
 
-            <div class="esqueceu-senha">
-                <a href="/alterar_senha.html">Esqueceu sua senha?</a>
-            </div>
+                <div class="erro-mensagem" id="erroMensagem" style="display: none;">
+                    Usuário ou senha incorretos!
+                </div>
 
-            <div class="botao-entrar">
-                <a href="/home.html">Entrar</a>
+                <div class="esqueceu-senha">
+                    <a href="/esqueceu_senha.html">Esqueceu sua senha?</a>
+                </div>
+
+                <div class="botao-entrar">
+                    <button type="submit">Entrar</button>
+                </div>
+            </form>
         </div>
     </div>
+
+
+    <!-- SCRIPT DE LOGIN -->
+    <script src="/Scripts/script-login.js"></script>
 
 </body>
 

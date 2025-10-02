@@ -196,12 +196,12 @@ a {
     text-align: center;
     margin-bottom: 70px;
     letter-spacing: 1px;
-    margin-top: -63px;
+    margin-top: -23px;
 }
 
 .form-grid {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr;
     gap: 30px 40px;
 }
 
@@ -249,7 +249,7 @@ a {
 
 .btn-submit {
     grid-column: 1 / -1;
-    margin-top: 20px;
+    margin-top: 130px;
     padding: 16px;
     background-color: #005691;
     color: white;

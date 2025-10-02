@@ -30,6 +30,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 10px 0;
+    margin-top: -150px;
 }
 
 .titulo-rh {
@@ -56,9 +57,9 @@ body {
     padding: 20px 50px;
     width: 100%;
     width: 600px;
-    height: 500px;
+    height: 450px;
     border-radius: 20px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .subtitulo-entrar {
@@ -71,14 +72,14 @@ body {
     margin-top: 40px;
 }
 
-.caixa-login input {
-    width: 100%;
-    padding: 18px 40px;
-    margin: 10px 0;
+.minititulo {
+    font-family: Arial, sans-serif;
+    text-align: center;
     font-size: 1rem;
-    border: 1px solid #023a6775;
-    border-radius: 999px;
-    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #448DCA;
+    font-weight: 600;
+    margin-top: -20px;
 }
 
 .esqueceu-senha {
@@ -96,19 +97,19 @@ body {
     text-decoration: none;
 }
 
-.botao-entrar {
+.botao-enviar {
     font-family: Arial, sans-serif;
     background-color: #005691;
     padding: 12px 20px;
     border-radius: 999px;
     cursor: pointer;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     color: #fff;
 }
 
-.botao-entrar button {
+.botao-enviar button {
     background: none;
     border: none;
     color: #fff;
@@ -131,7 +132,7 @@ body {
 }
 
 /* Ajuste no botão */
-.botao-entrar button {
+.botao-enviar button {
     width: 100%;
     background: none;
     border: none;
@@ -142,6 +143,45 @@ body {
     text-decoration: none;
 }
 
-.botao-entrar button:hover {
+.botao-enviar button:hover {
     opacity: 0.9;
+}
+
+.botao-enviar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* CAIXA DE CODIGO */
+.codigo-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+    margin-top: 70px;
+}
+
+.codigo-input {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border: 2px solid #023a6775;
+    border-radius: 10px;
+    color: #005691;
+    transition: all 0.3s ease;
+}
+
+.codigo-input:focus {
+    outline: none;
+    border-color: #005691;
+    box-shadow: 0 0 0 3px rgba(0, 86, 145, 0.1);
+}
+
+.codigo-input::-webkit-inner-spin-button,
+.codigo-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
