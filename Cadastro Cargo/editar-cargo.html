@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Usuários - RH Solutions</title>
-    <link rel="stylesheet" href="/Style/style-lista-usuarios.css">
-
+    <title>Editar Usuário - RH Solutions</title>
+    <link rel="stylesheet" href="/Style/Styles Cadastro Usuario/style-editar-usuario.css">
 </head>
 
 <body>
@@ -14,15 +13,15 @@
         <img src="/Imagens/header_home.png" alt="Imagem do header" class="header-imagem">
 
         <div class="usuario">
-            <img src="/Imagens/usuario.png" alt="Imagem de usuario">
+            <img src="/Imagens/usuario-header.png" alt="Imagem de usuario">
             <h3 class="nome-usuario">João Pedro</h3>
         </div>
 
         <div class="titulos-container">
-            <a href="/home.html">
+            <a href="/home-administrador.html">
                 <h1 class="titulo-rh">RH</h1>
             </a>
-            <a href="/home.html">
+            <a href="/home-administrador.html">
                 <h1 class="titulo-solutions">Solutions</h1>
             </a>
         </div>
@@ -39,31 +38,31 @@
 
     <div class="bara-lateral">
         <div class="pesquisa">
-            <a href="/buscar-usuario.html"><img src="/Imagens/icone-de-pesquisa.png" alt="Icone de Pesquisa"></a>
+            <a href="./buscar-usuario.html"><img src="/Imagens/icone-de-pesquisa.png" alt="Icone de Pesquisa"></a>
         </div>
 
         <div class="cadastrar-usuario">
-            <a href="/cadastro-de-usuario.html"><img src="/Imagens/icone-de-cadastrar.png"
+            <a href="./cadastro-de-usuario.html"><img src="/Imagens/icone-de-cadastrar.png"
                     alt="Icone de Cadastrar um Usuario"></a>
         </div>
 
-        <div class="editar-usuario">
-            <a href="/editar-usuario.html"><img src="/Imagens/icone-de-editar.png"
+        <div class="editar-usuario active">
+            <a href="./editar-usuario.html"><img src="/Imagens/icone-de-editar.png"
                     alt="Icone de Editar informações"></a>
         </div>
 
         <div class="desativar">
-            <a href="/desativar-usuario.html"><img src="/Imagens/icone-de-desativar-usuario.png"
+            <a href="./desativar-usuario.html"><img src="/Imagens/icone-de-desativar-usuario.png"
                     alt="Icone de Desativar um usuario"></a>
         </div>
 
-        <div class="lista active">
-            <a href="/lista-usuarios.html"><img src="/Imagens/icone-de-visualizar-lista.png"
+        <div class="lista">
+            <a href="./lista-usuarios.html"><img src="/Imagens/icone-de-visualizar-lista.png"
                     alt="Icone de lista de usuario"></a>
         </div>
 
         <div class="lista-de-bloqueados">
-            <a href="/lista-usuarios-inativos.html"><img
+            <a href="./lista-usuarios-inativos.html"><img
                     src="/Imagens/icone-de-visualizar-lista-de-usuario-desativados.png"
                     alt="Icone de lista de usuarios bloquedos"></a>
         </div>
@@ -73,7 +72,7 @@
     <!-- Lista de Usuários Lateral -->
     <div class="lista-usuarios-lateral">
         <div class="lista-header">
-            <h3>Selecione um usuário para ver informações</h3>
+            <h3>Selecione um usuário para editar</h3>
         </div>
         <div class="lista-usuarios" id="listaUsuarios">
             <label class="usuario-item">
@@ -185,19 +184,15 @@
         </div>
     </div>
 
+
     <div class="content-wrapper">
         <div class="form-container">
-            <h2 class="form-title">INFORMAÇÕES</h2>
+            <h2 class="form-title">EDITAR USUÁRIO</h2>
 
             <form class="form-grid">
                 <div class="form-group">
                     <label for="nome">NOME</label>
                     <input type="text" id="nome" placeholder="Nome completo" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="cargo">CARGO</label>
-                    <input type="text" id="cargo" placeholder="Cargo" required>
                 </div>
 
                 <div class="form-group">
@@ -228,17 +223,19 @@
                 <div class="form-group">
                     <label for="senha">SENHA</label>
                     <input type="password" id="senha" placeholder="Senha" required>
+                    <div class="password-requirements">
+                        Mínimo 8 caracteres.<br>
+                        Mínimo 1 caracter especial.<br>
+                        Mínimo 1 número.
+                    </div>
                 </div>
 
+                <button type="submit" class="btn-submit">Editar</button>
             </form>
         </div>
     </div>
 
 
-
-    <!-- SCRIPT DE INFORMAÇÕES-->
-    <script src="/Scripts/script-lista-usuarios.js"></script>
-    <!-- FIM DO SCRIPT -->
 </body>
 
 </html>

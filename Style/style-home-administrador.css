@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.header img[alt="Imagem do header"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.usuario {
+    position: absolute;
+    left: 30px;
+    top: 20%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 2;
+}
+
+.usuario img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.nome-usuario {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.titulos-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    z-index: 2;
+}
+
+.titulo-rh {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.titulo-solutions {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.bandeira {
+    position: absolute;
+    right: 30px;
+    top: 20%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row-reverse;
+}
+
+.bandeira:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-50%) scale(1.05);
+}
+
+.bandeira img {
+    width: 36px;
+    height: auto;
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ABAIXO DO HEADER */
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 80px;
+}
+
+.imagem-principal-container {
+    position: relative;
+    width: 950px;
+    height: 570px;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-left: -220px;
+}
+
+.imagem-principal {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.texto-sobre-imagem {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+}
+
+
+.titulo-rh-imagem {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+}
+
+.titulo-solutions-imagem {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.subtitulo-imagem {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.card-informacoes,
+.card-colegas,
+.card-senha {
+    background-color: transparent;
+    padding: 0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-titulo {
+    font-family: Arial, sans-serif;
+    color: #005791e5;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+.card-descricao {
+    font-family: Arial, sans-serif;
+    color: #005791da;
+    font-size: 15px;
+    margin-bottom: 8px;
+    max-width: 400px;
+}
+
+.card-botao {
+    background-color: #005691;
+    color: rgba(255, 255, 255, 0.767);
+    font-weight: 300;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 32px;
+    font-size: 12px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+.card-botao:hover {
+    background-color: #005691;
+}
+
+.rodape {
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape-texto {
+    font-family: Arial, sans-serif;
+    color: #005fa3;
+    font-size: 14px;
+}
+
+.cards-container a {
+    text-decoration: none;
+}

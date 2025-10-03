@@ -7,9 +7,9 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
 
     // Verificar credenciais
     if (usuario === 'adm' && senha === 'adm') {
-        window.location.href = '/buscar-usuario.html';
+        window.location.href = '/home-administrador.html';
     } else if (usuario === 'usu' && senha === 'usu') {
-        window.location.href = '/home.html';
+        window.location.href = '/home-colaborador.html';
     } else {
         // Mostrar mensagem de erro
         erroMensagem.style.display = 'block';
