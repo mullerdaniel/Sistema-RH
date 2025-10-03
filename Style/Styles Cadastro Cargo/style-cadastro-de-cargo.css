@@ -202,7 +202,7 @@ a {
 
 .form-grid {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr;
     gap: 30px 40px;
 }
 
@@ -273,4 +273,19 @@ a {
 
 .btn-submit:active {
     transform: translateY(0);
+}
+
+
+/* CAIXINHA SELETORA */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
 }
